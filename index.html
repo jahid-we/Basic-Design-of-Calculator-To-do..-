@@ -12,38 +12,38 @@
 <div class="container">
 
 <div class="calculatior">
- <input type="text" id="inputBox" placeholder="0" >
+ <input readonly type="text" id="inputBox" placeholder="0" >
 
 <div>
-<button class="button  blue" >AC</button>
-<button class="button blue" >Del</button>
+<button onclick="ac()" class="button  blue" >AC</button>
+<button onclick="ac()" class="button blue" >Del</button>
 <button class="button blue" >%</button>
 <button class="button blue" >/</button>
 </div>
 
 <div>
-<button class="button" >7</button>
-<button class="button" >8</button>
-<button class="button" >9</button>
-<button class="button blue" >*</button>
+<button onclick="addNumbers('7')" class="button" >7</button>
+<button onclick="addNumbers('8')" class="button" >8</button>
+<button onclick="addNumbers('9')" class="button" >9</button>
+<button onclick="addNumbers('*')" class="button blue" >*</button>
 </div>
 <div>
-<button class="button" >4</button>
-<button class="button" >5</button>
-<button class="button" >6</button>
-<button class="button blue" >-</button>
+<button onclick="addNumbers('4')" class="button" >4</button>
+<button onclick="addNumbers('5')" class="button" >5</button>
+<button onclick="addNumbers('6')" class="button" >6</button>
+<button onclick="addNumbers('-')" class="button blue" >-</button>
 </div>
 <div>
-<button class="button" >1</button>
-<button class="button" >2</button>
-<button class="button" >3</button>
-<button class="button blue" >+</button>
+<button onclick="addNumbers('1')" class="button" >1</button>
+<button onclick="addNumbers('2')"class="button" >2</button>
+<button onclick="addNumbers('3')" class="button" >3</button>
+<button onclick="addNumbers('+')" class="button blue" >+</button>
 </div>
 <div>
-<button class="button" >00</button>
-<button class="button" >0</button>
-<button class="button" >.</button>
-<button class="button blue" >=</button>
+<button onclick="addNumbers('00')" class="button" >00</button>
+<button onclick="addNumbers('0')" class="button" >0</button>
+<button onclick="addNumbers('.')" class="button" >.</button>
+<button onclick="" class="button blue" >=</button>
 </div>
 
 
@@ -51,6 +51,7 @@
 
 </div>
 
+<script src="./script.js" ></script>
 
 </body>
 </html>
